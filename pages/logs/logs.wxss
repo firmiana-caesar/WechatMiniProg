@@ -6,3 +6,11 @@
 .log-item {
   margin: 20rpx;
 }
+.picButton {
+  position: absolute;
+  top: 1000rpx;
+}
+.loadPicture{
+  position: absolute;
+  top:50rpx;
+}

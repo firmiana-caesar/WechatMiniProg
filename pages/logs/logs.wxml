@@ -1,6 +1,10 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
+  <!--<block wx:for="{{logs}}" wx:for-item="log">
     <text bindtap="bindViewTap" class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+  </block>-->
+
+  <button bindtap='TapTakePicture' plain='true' size='default' class='picButton'>点我拍照</button>
+
+  <image style="width: 700rpx; height: 900rpx; background-color: #eeeeee;" class='loadPicture' mode='aspectFit' src="{{picturePath}}"></image>
 </view>

@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "这是一个鸡吧",
+    "navigationBarTitleText": "Text your picture",
     "navigationBarTextStyle":"black"
   }
 }
